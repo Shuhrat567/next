@@ -104,7 +104,7 @@ const Navbar = () => {
               })}
               <li>
                 <NavLink
-                  href="/login"
+                  href="/"
                   className="block font-medium text-sm text-white bg-orange-600 hover:bg-orange-500 active:bg-gray-900 md:inline"
                 >
                   Contact

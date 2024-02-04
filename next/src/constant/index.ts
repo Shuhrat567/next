@@ -5,4 +5,11 @@ export const NavLinks = [
     { href: '/', key: 'Blog', text: 'Blog' },
     { href: '/', key: 'About', text: 'About' }
   ];
+
+export const ProvideLinks = [
+    { title: 'App Design', img: '/app.png' },
+    { title: 'Web Design', img: '/web.png' },
+    { title: 'Web Development', img: '/web-d.png' },
+]
+
   
