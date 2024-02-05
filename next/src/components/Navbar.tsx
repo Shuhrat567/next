@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import NavLink from './NavLink';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { NavLinks } from '@/constant';
+import { MenuLinks } from '@/constant';
 import Image from 'next/image';
 
 const Navbar = () => {
@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <header>
       <nav
-        className={`bg-white w-full md:static md:text-sm lg:px-36 sm:px-18 ${
+        className={`w-full md:static md:text-sm lg:px-36 sm:px-18 bg-orange-100 ${
           state ? 'fixed z-10 h-full' : ''
         }`}
       >
@@ -93,7 +93,7 @@ const Navbar = () => {
             }`}
           >
             <ul className="text-gray-700 justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0 md:text-gray-600 md:font-medium">
-              {NavLinks.map((item, idx) => {
+              {MenuLinks.map((item, idx) => {
                 return (
                   <li key={idx} className="duration-150 hover:text-gray-900">
                     <Link href={item.href} className="block">

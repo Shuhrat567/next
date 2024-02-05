@@ -4,6 +4,10 @@ import Brands from "@/components/Brands"
 import OurProjects from "@/components/OurProjects"
 import Provide from "@/components/Provide"
 import Footer from '@/components/Footer'
+import UserExpirence from '@/components/UserExpirence'
+import Ideas from '@/components/Ideas'
+import Form from '@/components/Form'
+// import Customers from '@/components/Customers'
 
 const Home = () => {
   return (
@@ -13,6 +17,11 @@ const Home = () => {
           <Brands />
           <OurProjects/>
           <Provide/>
+          
+          <UserExpirence/>
+          <Ideas/>
+          <Form/>
+          {/* <Customers/> */}
           <Footer />
     </div>
   )
